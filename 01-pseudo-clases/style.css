@@ -1,0 +1,61 @@
+/* seletor:pseudo-classe { 
+    propiedade: valor;
+    } */
+    
+    /* TODAS AS PRIEMIRAS LINHAS DOS PARAGRAFOS VAO FICAR DA COR AQUA */
+    
+    p:first-child {
+        color: aquamarine;
+    }
+    
+    /* TODAS AS ULTIMAS LINHAS DOS PARAGRAFOS VAO FICAR DE COR PURPLE */
+    
+    p:last-child {
+        color: rebeccapurple;
+    }
+    
+    /* TODOS OS CODIGOS QUE NAO TIVEREM "class=".padrao"" ELES VAO FICAR DA COR AMARELA */
+    
+    /* p:not(.padrao){
+        color: yellow;
+        } */
+        
+        /* PARA TODOS AS LISTAS COM POSIÇAO IMPAR ELES VAO FICAR COM A COR VERMELHA */
+        
+        /* 
+        li:nth-child(odd){
+            color: red;
+            } */
+            
+            
+            /* PARA TODAS AS LISTAS COM POSIÇAO PAR ELAS VAO FICAR COM A COR VERDE */
+            
+            /* li:nth-child(even){
+                color: green;
+                } */
+                
+                /* DE DOIS EN DOIS AS LISTAS VAO FICAR DA COR VERMELHA */
+                
+                /* li:nth-child(2n){
+                    color: red;
+                    } */
+                    
+                    /* SO A SEGUDA LISTA VAI FICAR COM A COR VERMELHA */
+                    
+                    /* li:nth-child(2){
+                        color: red;
+                        } */
+                        
+                        /* li:nth-child(n+2):nth-child(-n+3){
+                            color: red;
+                            } */
+                            
+                            li:nth-last-child(1){
+                                color: red;
+                            }
+                            
+                            /* TODAS AS LINHAS P QUE ESTIVEREM SOZINHAS VAO FICAR DA COR SADDLEBROWM */
+
+                            p:only-child{
+                                color: saddlebrown;
+                            }

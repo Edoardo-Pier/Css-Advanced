@@ -1,0 +1,46 @@
+/* seletor::pseudo elemento{
+    propiedade: valor;
+} */
+
+/* ISO VAI COLORINDO A PRIMEIRA LINHA QUE APARECE NO TETO VARIANDO O TAMANHO ELE VAI COLORINDO MAIS LETRAS */
+
+.first-letter::first-letter{
+    color: aqua;
+}
+
+.first-line::first-line{
+    color: red;
+}
+
+.first-line::first-letter{
+    color: purple;
+}
+
+/* ISTO CRIA E DEIXA MARACADORES DE LISTA VERMELHOS  */
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+
+.before::before{
+    content: "";
+    background: url(./image/Screenshot\ 2024-07-23\ 130936.jpg) center center
+    no-repeat;
+    display: inline-block;
+    width: 716px;
+    height: 688px;
+}
+
+.after::after{
+    content: url(./image/Screenshot\ 2024-07-23\ 130936.jpg);
+}
+
+
+
+/* PODE SER TAMBEN TEXTOS */
+
+/* h2::before{
+    content: "teste";
+} */
+
